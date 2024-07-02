@@ -67,16 +67,16 @@ npm install
 ## Front-End Routes
 The application is built with React Router for navigation. Here are the routes available in WorkByte:
 
-**/login:** Login page.
-**/register:** Registration page.
-**/:** Home page.
-**/job/getall:** Page to view all job postings.
-**/job/:id:** Page to view details of a specific job.
-**/job/post:** Page to post a new job (Employer only).
-**/job/me:** Page to view jobs posted by the logged-in employer.
-**/application/:id:** Page to view a specific job application.
-**/application/me:** Page to view the logged-in job seeker's applications.
- *: Not found page for undefined routes.
+1. **/login:** Login page.
+2. **/register:** Registration page.
+3. **/:** Home page.
+4. **/job/getall:** Page to view all job postings.
+5. **/job/:id:** Page to view details of a specific job.
+6. **/job/post:** Page to post a new job (Employer only).
+7. **/job/me:** Page to view jobs posted by the logged-in employer.
+8. **/application/:id:** Page to view a specific job application.
+9. **/application/me:** Page to view the logged-in job seeker's applications.
+10.  *: Not found page for undefined routes.
 
 ## API Endpoints
 # Authentication
